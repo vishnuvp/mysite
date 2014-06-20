@@ -1,0 +1,97 @@
+body {
+margin: 0;
+background: #efefef;
+}
+
+#header {
+width: 100%;
+position: fixed;
+top: 0;
+z-index:10000;
+background: #efefef;
+opacity: 0.1;
+transition: all 200ms ease-in;
+}
+
+#header:hover{
+opacity: 1;
+}
+ul.menu {
+margin: 0;
+height: 50px;
+}
+#header ul.menu li  {
+	display: inline-block;
+	width: 15vw;
+	list-style: none;
+	margin: 0 2vw;
+	height: 75%;
+	vertical-align: middle;
+	padding-top: 1%;
+}
+#header ul.menu li  a {
+	color: #666;
+	text-decoration: none;
+	text-transform: uppercase;
+	float:left;
+	width: 100%;
+}
+main {
+	margin-top: 50px;
+}
+
+.page {
+	height: 100vh;
+	border:1px groove;
+	padding-top: 50px;
+}
+
+#page1 {
+background-color: #738C74;
+color:#CBCFBD;
+}
+
+#page2 {
+background-color:#292C2E;
+color:#859CAE;
+}
+
+#page3 {
+background-color:#8A795D;
+color:#9e8d70;
+}
+
+#page4 {
+background-color:#4F666A;
+color:#e2e8e9;
+}
+
+.circle {
+
+border-radius: 200px;
+
+}
+#scroll-top {
+	background: none repeat scroll 0 0 #EFEFEF;
+	bottom: 10px;
+	color: #666666;
+	font-size: 60px;
+	opacity: 0.2;
+	padding: 0 20px;
+	position: fixed;
+	right: 20px;
+	text-decoration: none;
+}
+
+#scroll-top:hover {
+	opacity: 0.7;
+}
+
+.no-select {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
